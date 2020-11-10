@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/member.css" />
+    <title>Submit</title>
+
+
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    
+    <form action="../MemberLogin" method="POST"><!-- 用兩個'.'回到根目錄下 -->
+        <!-- enctype="multipart/form-data"-->
+        <fieldset>
+            <legend>會員登入</legend>
+            <div class="div1">
+                <label class="t1" for="user">帳號 </label>
+                <input type="text" id="account" name="user">
+                <span id="namesp"></span><br />
+                
+            </div>
+            <hr>
+        
+            <div class="div1">
+                <label class="t1" for="pwd">密碼: </label>
+                <!--onblur="checkPwd(this);" maxlength="8"  pattern="[a-zA-Z]{1}[1-2]{1}\d{8}"-->
+                <input type="password" id="idPwd" name="pwd" placeholder="請輸入密碼" onblur="checkPwd('idPwd','idsp');" />
+                <span id="idsp"></span><br />
+               
+            </div>
+ 
+
+            <hr>
+
+            <div style="text-align: center;">
+                <input type="SUBMIT" value="送出">
+                <input type="reset" value="清除">
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

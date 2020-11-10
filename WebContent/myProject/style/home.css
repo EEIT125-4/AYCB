@@ -1,0 +1,32 @@
+
+div{
+    display:block;
+}
+.menu{
+    float: left;
+    border:solid 1px;
+    height: auto;
+    width:500px;
+    }
+.menu:hover{
+    display: block;
+
+}
+.menu ul li {
+    float: left;
+    margin-right: 20px;
+    color:black;
+    list-style-type: none;
+}
+.top_box{
+
+    width: 100%;
+    position: fixed;
+}
+
+.submenu{
+    width:100px;
+    text-align: center;
+    color:red;
+}
+

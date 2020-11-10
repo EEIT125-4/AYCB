@@ -1,0 +1,35 @@
+.welfare__container {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid #c3b893;
+    border-right: 1px solid #c3b893;
+    border-bottom: 1px solid #c3b893;
+    border-radius: .25rem;
+    margin: 15px 0px;
+}
+
+
+
+.welfare__caption {
+    color: #b86f04;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    top: -10px;
+    overflow: hidden;
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+.wsmenu-submenu {
+    position: absolute;
+    top: 50px;
+    z-index: 1000;
+    margin: 0px;
+    padding: 2px;
+    border: solid 1px #eeeeee;
+    background-color: #fff;
+    opacity: 0;
+    min-width: 96px;
+}

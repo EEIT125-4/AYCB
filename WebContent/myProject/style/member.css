@@ -1,0 +1,58 @@
+form {
+    padding-top: 10px;
+    margin: 10px auto;
+
+    display: block;
+
+    width: 50%;
+    border: 1px solid gray;
+
+    padding: 30px 80px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+div {
+    margin: 10px;
+}
+
+.div1 {
+   
+    /*border-bottom: 1px dashed crimson;*/
+    margin: 10px;
+    padding-bottom: 10px;
+
+}
+
+.hint {
+    color: gray;
+    font-size: small;
+}
+
+.t1 {
+
+    /*width: 100px;*/
+    text-align: left;
+}
+
+fieldset {
+    width: 100%;
+    border-style: double;
+    border-color: green;
+    border-radius: 15px;
+}
+
+legend {
+    /*text-align: center;*/
+    /*margin-left: 10%;*/
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bolder;
+    color: dodgerblue
+}
+
+span {
+    color: red;
+    font-size: 10px;
+
+}

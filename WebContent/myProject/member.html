@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/member.css" />
+    <script src="../js/homework3.js" defer="defer"></script>
+    <title>Submit</title>
+
+
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    
+    <form action="" method="POST">
+        <!-- enctype="multipart/form-data"-->
+        <fieldset>
+            <legend>會員註冊</legend>
+            <div class="div1">
+                <label class="t1" for="real_name">姓名: </label>
+                <input type="text" id="account" name="real_name" placeholder="ex:天公伯"
+                    onblur="checkName('account','namesp')">
+                <span id="namesp"></span><br />
+                <label class="hint">(1)不可空白,(2)至少兩個字以上,(3)必須全部為中文字 *收件核對姓名,請確實填寫</label>
+            </div>
+            <hr>
+            <div class='div1'>
+              <label class="t1" for="nick_name">暱稱: </label>
+              <input type="text" id="account" name="real_name" >
+            
+
+            </div>
+
+            <div class='div1'>
+              <label class='t1' for="email">email</label>
+              <input type="email" id="email" name="email" placeholder="abc@gmail.com"/>
+                <span id="idsp"></span><br />
+                <label class="hint">登入帳戶email請確實填寫</label>
+            </div>
+
+            <div class="div1">
+                <label class="t1" for="pwd">密碼: </label>
+                <!--onblur="checkPwd(this);" maxlength="8"  pattern="[a-zA-Z]{1}[1-2]{1}\d{8}"-->
+                <input type="password" id="idPwd" name="pwd" placeholder="請輸入密碼" onblur="checkPwd('idPwd','idsp');" />
+                <span id="idsp"></span><br />
+                <label class="hint">(1)不可空白,(2)至少6個字且必須包含英文字母、數字、特殊字元[!@#$%^&*]</label>
+            </div>
+            <hr>
+            <div class="div1">
+                <label class="t1">生日: </label>
+                <input type="text" id="idDate" name="date" placeholder="ex:2020/11/3" maxlength="10"
+                    onblur="checkDate('idDate','dateSP');" />
+                <!--pattern="[0-9]{4}['/'']{1}[0-9]{2}['/']{1}[0-9]{2}\d{10}"-->
+                <span id="dateSP"></span>
+                <br/>
+                <label class="hint">格式:西元年/月/日yyyy/MM/dd</label>
+
+            </div>
+            <hr>
+
+            <div style="text-align: center;">
+                <input type="SUBMIT" value="送出">
+                <input type="reset" value="清除">
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
