@@ -1,0 +1,196 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+div {
+	display: block;
+}
+
+.menu {
+	float: left;
+	border: solid 1px;
+	height: 50px;
+	width: 100%;
+}
+
+.menu ul li {
+	float: left;
+	margin-right: 20px;
+	color: black;
+	list-style-type: none;
+}
+
+.hidemenu {
+	display: none;
+	background-color: #ffb2b2;
+}
+
+.hidemenu li {
+	background-color: pink;
+}
+
+.submenu {
+	width: 100px;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+}
+
+.submenu:hover .hidemenu {
+	display: block;
+}
+
+.submenu ul {
+	display: none;
+}
+
+.submenu a {
+	color: white;
+}
+
+.header {
+	width: 100%;
+	background-color: black;
+	height: 150px;
+	position: fixed;
+	text-align: center;
+}
+
+.logo {
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+.menubox {
+	margin-left: 150px;
+	height: 150px;
+	width: fit-content;
+}
+
+.title {
+	font-family: arizonia;
+	font-size: 84px;
+	margin-left: 150px;
+	color: white;
+	height: 100px;
+	float: left;
+}
+
+.nav {
+	border: 1px solid red;
+	background-color: goldenrod;
+	line-height: 200px;
+}
+
+select {
+	background-color: brown;
+}
+
+.search_bg {
+	float: right;
+	background-image: url(images/seach.png);
+	height: 28px;
+	width: 28px;
+	border: 0;
+	background-size: 22px;
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+}
+
+.footer {
+	width: 100%;
+	clear: both;
+	height: 100px;
+	background-color: black;
+	color: white;
+}
+
+.list {
+	margin-left: 20%;
+	overflow: auto;
+	list-style-type: circle;
+	text-shadow: 5px 5px 5px #FF0000;
+	font-style: italic;
+}
+
+.list li {
+	float: left;
+	width: 8em;
+	border-right: 1px solid gray;
+}
+
+.list li a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 2.5em;
+}
+
+.content {
+	border: black solid 1px;
+	padding-top: 150px;
+}
+
+.left {
+	width: 14%;
+	float: left;
+	text-align: center;
+	height: 200px;
+	position: fixed;
+	border: rebeccapurple solid 1px;
+	border-radius: 10px;
+}
+
+.left li {
+	border: pink solid 1px;
+	border-radius: 15px;
+	background-color: black;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.left li:hover {
+	background-color: white;
+	color: black;
+	border: red solid 2px;
+}
+
+.main {
+	padding-left: 10px;
+	float: right;
+	width: 85%;
+	border: solid 1px black;
+	border-radius: 10px;
+}
+
+.absolute1 {
+	position: absolute;
+	right: 0px;
+	height: 100px;
+	border: 1px solid #FF8040;
+}
+table{
+	margin: 5px auto;
+	width: 90%;
+	border: black 2px solid;
+	border-collapse: collapse;
+}
+
+tb {
+	margin: 5px auto;
+	width: 90%;
+	border: black 1px solid;
+	border-collapse: collapse;
+}
+
+th {
+	border: 2px solid red;
+	text-align: center;
+}
+
+td {
+	border: black 1px solid;
+}

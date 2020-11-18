@@ -8,6 +8,7 @@
     <welcome-file>default.html</welcome-file>
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
+ 	<welcome-file>shopping</welcome-file>
   </welcome-file-list>
       <resource-ref>
     <description>AYCB SQL Server DataSource</description>
@@ -25,5 +26,31 @@
     <servlet-name>MemberLogin</servlet-name>
     <url-pattern>/MemberLogin</url-pattern>
       </servlet-mapping>
+      
+      <servlet>
+    <description></description>
+    <display-name>TestServlet</display-name>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>TestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/Kevin/TestServlet</url-pattern>
+  </servlet-mapping>
+  
+        <servlet>
+    <description></description>
+    <display-name>MsgServlet</display-name>
+    <servlet-name>MsgServlet</servlet-name>
+    <servlet-class>MsgServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MsgServlet</servlet-name>
+    <url-pattern>/Kevin/MsgServlet</url-pattern>
+  </servlet-mapping>
+  
+   
+  
+  
     
 </web-app>
